@@ -1,0 +1,5 @@
+#+title: Learning More Python The Hard Way Solutions
+#+author: Ulysses Carlos
+#+date: <2020-12-06 Sun>
+
+This repository contains my personal solutions to problems in Zed Shaw's _Learning More Python The Hard Way_.
