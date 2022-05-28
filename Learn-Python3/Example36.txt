@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+A text adventure -- Dumb Wumpus
+--------------------------------------------------------------------------------
+INTRO)
+
+The sound of raindrops awakes you up from your sleep. Your first thoughts are
+immediate fear. You're not in your bedroom. Instead, you in some form of room?
+It's quite hard to see your surrondings. You instinctly reach for your light,
+but your left hand finds nothing to grab onto. You look down and realize that
+you've been sleeping on cold hard rock. You then look up and see the giant hole
+in the ceiling, illuminated by moonlight. You vaguely see the number '1'
+chiseled on the floor. After getting up, you try to search your pockets for
+your pistol and cellphone, but instead you feel some crumbled up object. Using
+the moonlight, you can faintly make out the words "Wumpus" and "escape".
+Wumpus. Wumpus. You've heard that name before. After pondering for a moment
+on the meaning of the word, you can faintly hear some form of roar from one
+corner of the room. You slowly walk up and faintly see some number
+displayed on a plaque above a hole. Suddenly, the room is illuminated.
+You then notice that this hole is the only way out of this room. It's time
+to get out of here.
+
+
+So how many rooms?
+       1 2 3 4 5
+       6 7 8 9 a
+       b c
+		   b --> c (exit 2)	
+                   |
+       1 --> 2 --> 3 --> 5 (Dead end)
+             |
+  (Dead end) 7 <-- 4 -> 6 (Dead End)
+	     |
+	     8 --> 9 --> a (exit 1)
+
+5, 6, 7 are where the wumpus is located,
+a, c are exits
+
+I have no idea if I can uses classes for this, so what I can do
+
+Each room:
+     has a reference to a rooms(or none)
+
+
+
+--------------------------------------------------------------------------------
+Acutally, that's too complicated for this exercise
+Using the following rooms:
+1 2 3 4 5 6
+
+      3 (Dead End)
+      |
+1 --> 2
+      |
+6 <-- 4 --> 5 (Exit)
+
+Rooms 3 and 6 are dead ends (3 is Wumpus, 6 is trap)
+5 is exit room (Escape)
+1 Has hole in ceiling, is illuminated
+2: Faint awful smell, two rooms
+3: Wumpus, kill you from the smell
+4: Hear a faint wind coming from some room
+5: You are out of the dungeon.
+6: You fall into a bottomless pit and die.
+
+
+Additional goodies:
+MUSIC

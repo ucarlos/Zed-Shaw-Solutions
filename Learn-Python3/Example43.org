@@ -1,0 +1,19 @@
+* Problem Details
+** TODO Map
+  - next_scene
+  - opening_scene
+** Engine
+- Play
+** Scene
+- Each scene should have text, and a list containing references to another room.
+*** Number of Scenes:
+- Enter
+- Death
+- Central Corridor
+- Laser Weapon Armory
+- The Bridge
+- Escape Pod
+
+* So, where do we start?
+Central Corridor --> Laser Weapon Armory --> Bridge --> Escape Pod
+(Fight)	--> (No Fight) --> (Fight) -->

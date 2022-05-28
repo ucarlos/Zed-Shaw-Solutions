@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1><u>{{ room.name }}</u></h1>
+<pre>
+    {{ room.description }}
+</pre>
+
+{% if room.name in ["You died 💀", "The End"] %}
+<p>
+    John says: <strong>"{{ room.quip }}"</strong><br>
+    <a href="/">Play Again?</a>
+</p>
+
+
+{% else %}
+{% if room.show_help %}
+<h3>Available Commands:</h3>
+<p>{{ room.help }}</p>
+<ul>
+    {% for key in room.paths %}
+    {% if key != '*' %}
+    <li>{{ key }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
+{% endif %}
+
+{% if room.max_chances != -1 %}
+{% if room.current_chances > 1 %}
+<p>You have <strong>{{ room.current_chances }}</strong> chances left.</p>
+{% else %}
+<p>You have <strong>1</strong> chance left.</p>
+{% endif %}
+{% endif %}
+
+<p>
+    <form action="/game" method="POST">
+	<input type="text" name="action"><br>
+	<input type="SUBMIT" value="Go!">
+    </form>
+</p>
+
+{% endif %}
+
+{% endblock %}

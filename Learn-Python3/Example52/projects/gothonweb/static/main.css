@@ -1,0 +1,58 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* font-family: Times New Roman; */
+}
+
+body{
+    background-color: #eee2dc;
+}
+
+img {
+    width: 180px;
+    height: 180x;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1{
+    font-family:"black_chancery";
+}
+
+pre{
+    font-family: monospace;
+    font-size: 1em;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    height: 720px;
+    border-collapse: collapse;
+}
+
+tr{
+    width: auto;
+    height: auto;
+
+    border-spacing: 0px;
+    
+}
+
+td{
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+
+/* Added a Custom gothic font: */
+@font-face{
+    font-family:"black_chancery";
+    src: url("./custom_font/black_chancery.ttf");
+
+}
