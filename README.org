@@ -1,0 +1,7 @@
+#+title: Python Zed Shaw Solutions
+#+author: Ulysses Carlos
+#+date: <2022-05-27 Fri>
+
+This repository contains all solutions that I made while working on Zed Shaw's _Learning Python the Hard Way_ and _Learning More Python the Hard Way_.
+
+
