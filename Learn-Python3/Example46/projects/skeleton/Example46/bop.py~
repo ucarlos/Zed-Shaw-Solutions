@@ -1,6 +1,0 @@
-def bopper():
-    print("The only purpose of this program is to "
-          + "test out the project hiearchy introduced in "
-          + "Example 46. Yep. Here's a picture for your troubles."
-          )
-    
